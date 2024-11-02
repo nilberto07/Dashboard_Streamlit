@@ -1,0 +1,8 @@
+# VIRTUAL ENV
+Instalação -> pip install virtualenv
+Criar Pastas/Arquivos -> virtualenv venv
+Para Rodar Maquina Virtual -> venv/Scripts/Activate
+# STREAMLIT
+Instalação -> pip install streamlit
+Rodar para web -> streamlit run app.py
+Pausar Copilação -> Ctrl + C
