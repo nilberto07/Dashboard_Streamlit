@@ -42,10 +42,10 @@ st.write(data) # Mostra os dados em tabela
 st.subheader('Número de coletas por hora')
 
 # Use o NumPy(np) para gerar um HISTOGRAMA que divide os horários de coleta classificados por hora
-#hist_values = np.histogram(
-#    data[DATE_COLUMN].dt.hour, bins=24, range=(0,24))[0]
+hist_values = np.histogram(
+    data[DATE_COLUMN].dt.hour, bins=24, range=(0,24))[0]
 # Mostrar
-#st.bar_chart(hist_values)
+st.bar_chart(hist_values)
 
 # Grafico MAPA
 st.subheader('Mapa de todos os pontos de coleta')
